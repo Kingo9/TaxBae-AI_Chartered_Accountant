@@ -1,20 +1,20 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { AuthProvider } from './src/context/AuthContext';
+import { ExpenseProvider } from './src/context/ExpenseContext';
+import AppNavigator from './src/navigation/AppNavigator';
+import ErrorBoundary from './src/components/ErrorBoundary';
+import { colors } from './src/utils/theme';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ErrorBoundary>
+      <AuthProvider>
+        <ExpenseProvider>
+          <StatusBar style="auto" backgroundColor={colors.primary} />
+          <AppNavigator />
+        </ExpenseProvider>
+      </AuthProvider>
+    </ErrorBoundary>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
