@@ -288,7 +288,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Authors
 
-- **TaxBae Team** - *Initial work*
+- **TaxBae Team** - Asad Shaikh, Siddique Shayan, Muaviyah Shelia.
+
 
 ## 🙏 Acknowledgments
 
@@ -300,8 +301,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - 📧 Email: support@taxbae.com
-- 📱 Phone: +91-XXXXX-XXXXX
-- 🌐 Website: https://taxbae.com
+- 📱 Phone: +91 9168274756
+- 🌐 Website: Hosting is in Progress
 - 💬 Discord: [TaxBae Community](https://discord.gg/taxbae)
 
 ---
